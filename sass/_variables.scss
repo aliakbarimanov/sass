@@ -1,0 +1,28 @@
+// colors
+$primary: #000;
+$secondary: #fff;
+$success: #0f0;
+$info: #00f;
+$danger: #f00;
+$warning: #ff0;
+
+// layout
+$margin: 5px;
+$padding: 5px;
+
+// font
+$font-size: 10;
+$base-font-size: 10;
+
+
+// color palette
+$colors: (
+    "success": $success,
+    "info": $info,
+    "danger": $danger,
+    "warning": $warning,
+    "primary": $primary,
+    "secondary": $secondary,
+    "gray": #888,
+    "gold": #ffd700,
+)

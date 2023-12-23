@@ -1,0 +1,8 @@
+@for $btn from 1 to 6{
+    .btn-#{$btn}{
+        padding: $padding*$btn $padding*$btn*2;
+        font-size: #{$base-font-size*$btn/2}px;
+    }
+
+    // @debug "<button class='btn-#{$btn}'>Button</button>"
+}

@@ -1,1 +1,4 @@
+// gulp install
+npm i gulp gulp-sass sass --save-dev
+------------------------------------
 #{$variable}
