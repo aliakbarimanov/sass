@@ -1,0 +1,26 @@
+@use "sass:map";
+
+@function light-complement($color) {
+    $complement: complement($color);
+
+    $light-complement: lighten($complement, 30%);
+
+    @return $light-complement;
+}
+
+$maincolor: light-complement($info);
+
+@for $bg from 2 to 1 {
+    .bg{
+        background-color: $maincolor;
+        color: map.get($colors, "danger");
+    }
+}
+
+// @each $value in $maincolor {
+//     .col-#{$value} {
+//         background-color: $value;
+//     }
+
+//     @debug "<p class='col-#{$value}'>MAIN</p>"
+// }
